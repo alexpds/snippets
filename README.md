@@ -1,12 +1,9 @@
-snippets
-========
+# snippets
 
-chmod files or directories recursively
+#### chmod files or directories recursively
 
-FOLDERS
-
+##### FOLDERS
 find . -type d -exec chmod 755 {} \;
 
-FILES
-
+##### FILES
 find . -type f -exec chmod 644 {} \;
